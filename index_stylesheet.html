@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {background: #ff77aa; display: flex; flex-wrap: wrap; justify-content: space-between;}
+        imput {background: #487f11; flex-basis: 100%; height: 100px; margin-bottom: 0.5rem;}
+        @media (min-width: 600px) {div {flex-wrap: nowrap;}
+        p {flex-basis: 33%; }}
+      </style>
+</head>
+<body>
+    <ul id="accordion">
+        <li>
+            <label for="first">¿Cómo Agregar / Modificar / Eliminar un Tablero? <span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="first" checked>
+            <div class="content">
+                <p>
+                    Para agregar un Tablero, primero debes dar de alta un usuario.<br>
+                    Una vez dado de alta el usuario, debes ir a la parte superior izquierda donde 
+                    dice AGREGAR TABLERO.<br>
+                    Allí deberás agregarle un Nombre al Tablero y luego hacer click en AGREGAR+
+                </p>
+                <p>
+                    Para modificar un Tablero debes ir a Modificar TABLERO.<br>
+                    Allí podrás modificar el Tablero creado.
+                </p>
+                <p>
+                    Para eliminar un Tablero debes seleccionar el tablero a eliminar y hacer click en eliminar.<br>
+                </p>
+            </div> 
+        </li>
+
+        <li>
+            <label for="second">¿Cómo Agregar / Modificar / Finalizar una Tarea? <span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="second">
+            <div class="content">
+                <p>
+                    Para agregar una Tarea, primero debes dar de alta un usuario.<br>
+                    Una vez dado de alta el usuario, debes ir a la parte superior izquierda 
+                    donde dice AGREGAR TAREA.<br>
+                    Allí deberás agregarle un Nombre a la Tarea y luego hacer click en 
+                    AGREGAR+
+                </p>
+                <p>
+                    Para modificar un Tarea debes ir a la parte superior izquierda donde dice
+                     AGREGAR TAREA.<br>
+                    Allí deberás agregarle un Nombre a la Tarea y luego hacer click en AGREGAR+
+                </p>
+                <p>
+                    Para eliminar un Tarea debes ir a la parte superior izquierda donde dice 
+                    AGREGAR TAREA.<br>
+                    Allí deberás agregarle un Nombre a la Tarea y luego hacer click en AGREGAR+
+                </p>
+            </div>
+        </li>
+
+        <li>
+            <label for="third">¿Cómo cambiar a Configuración del Tablero y las Tareas? <span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="third">
+            <div class="content">
+                <p>
+                    Debes ir a la parte de Configuración y podrás elegir el color que deseas para
+                    cada una de las tareas.<br>
+
+                </p>
+            </div>
+        </li>
+
+    </ul>
+    
+
+</body>
+</html>
